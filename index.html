@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <div class="home">
+
+        <div class="left">
+            <h1>POP design</h1>
+            <img src="./images/underline.png" alt="underline">
+            <p>New HTML Template with pop up pages and use this layout for your website</p>
+            
+        </div>
+        <div class="right">
+            <div class="inner_card" name="welcome"><i class="fa fa-home" aria-hidden="true"></i><p class="itext" >Welcome</p></div>
+            <div class="inner_card" name="our_team"><i class="fa fa-users" aria-hidden="true"></i><p class="itext" name="welcome">Our Team</p></div>
+            <div class="inner_card" name="our_work"><i class=" fas fa fa-handshake-o" aria-hidden="true"></i><p class="itext">Our Work</p></div>
+            <div class="inner_card" name="contact"><i class="fa fa-comments" aria-hidden="true"></i><p class="itext">Contact</p></div>
+        </div>
+    </div>
+
+    <div class="card" id="welcome" >
+        
+        <i class="fa fa-times cross_icon" aria-hidden="true"></i>
+        <h2 class="card_title">Welcome to Pop Design</h2>
+
+        <div class="welcome-card ">
+            <div class="left-div">
+                <img src="./images/welcome-1.jpg" alt="welcome-1">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi possimus rerum repellendus provident harum dignissimos voluptates magni voluptas? Quia, et.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, dicta iure? Exercitationem illum totam, inventore architecto ipsa veritatis, fugia</p>
+            </div>
+            <div class="right-div">
+    
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. iciatis exercitationem aspernatur in ad, dolor enim officiis molestiae nobis accusamus laborum corporis..</p>
+    
+                <p>Lorem ipsum dolor, sit amet consectetur aadipisci! Esse error magnam obcaecati accusamus eveniet eaque? Quia, a?</p>
+                    <img src="./images/welcome-2.jpg" alt="welcome-2">
+            </div>
+        </div>
+        
+       
+
+    </div>
+    <div class="our_team-card card" id="our_team">
+        <i class="fa fa-times cross_icon" aria-hidden="true"></i>
+        <h2 class="card_title">Background of Our Team</h2>
+        <div class="team-wrapper">
+            <div class="team-left-div">
+               <span>
+                <p>
+                   Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic possimus quisquam velit nisi. Rem qui suscipit eius accusamus libero maxime nesciunt minus quis esse maiores. Omnis ad eos officia eligendi!
+                </p>
+                <p>
+                   Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quo natus aperiam recusandae tempora fugiat perferendis voluptates laboriosam cupiditate maiores! Ducimus facilis nam vero sapiente odit cupiditate quo magnam voluptate temporibus!
+                </p>
+                
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas numquam et ullam, quae eius, necessitatibus minus ut corporis pariatur, blanditiis doloremque dolores. Vel dolorum impedit, dolore placeat ea magnam quaerat!
+                </p>
+               </span>
+                
+                <div>
+                    <a href="#" class="btn">Read More</a></div>
+                
+                        </div>
+                        <div class="team-right-div">
+                            <img src="./images/team.jpg" alt="team">
+                        </div>
+        </div>
+       
+    
+    
+    </div>
+    <div class="our_work card" id="our_work"> 
+        <i class="fa fa-times cross_icon" aria-hidden="true"></i>
+       <div class="main-div">
+        <h2 class="card_title">Our Work</h2>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Similique labore veritatis reiciendis iste, veniam debitis sint non? Velit nemo, ratione numquam possimus sint odio, quae maxime, ex perferendis ipsam nisi!</p>
+        
+       <div class="slider-container">
+        <div class="slider-images">
+            <img class="slider-image" src="./images/gallery-img-01-tn.jpg" alt="Image 1">
+            <img class="slider-image" src="./images/gallery-img-02-tn.jpg" alt="Image 2">
+            <img class="slider-image" src="./images/gallery-img-03-tn.jpg" alt="Image 3">
+            
+            <img class="slider-image" src="./images/gallery-img-04-tn.jpg" alt="Image 1">
+            <img class="slider-image" src="./images/gallery-img-05-tn.jpg" alt="Image 2">
+            <img class="slider-image" src="./images/gallery-img-06-tn.jpg" alt="Image 3">
+        </div>
+        
+        <div class="dots" id="dots-container"></div>
+    </div>
+   
+       </div>
+       <span class="slider-arrow-left" onclick="prevSlide()"><i class="fa fa-arrow-circle-left" aria-hidden="true"></i></span>
+       <span class="slider-arrow-right" onclick="nextSlide()"><i class="fa fa-arrow-circle-right" aria-hidden="true"></i></span>
+   
+  </div>
+  <div class="contact card" id="contact"> 
+    <i class="fa fa-times cross_icon" aria-hidden="true"></i>
+<div class="contact-div">
+    <h2 class="card_title">Contact Us</h2>
+        <p>Lorem ipsum dolor site amet, consectetur adipiscing elit. Aliquam interdum, nisl sed faucibus tempor, massa velit laoreet ipsum, et faucibus sapien magna at enim. Suspendisse a dictum tortor, vel rhoncus libero.</p>
+        <form action="index.html" method="post" class="contact-form">
+            <div class="row">
+                
+                  <input type="text" id="contact_name" name="contact_name" class="form-control" placeholder="Name" required="">
+                                    
+                  <input type="email" id="contact_email" name="contact_email" class="form-control" placeholder="Email" required="">
+                
+            </div>                                                        
+            <div class="form-group">
+              <textarea id="contact_message" name="contact_message" class="form-control" rows="9" placeholder="Message" required=""></textarea>
+            </div>
+            <button type="submit">Submit</button>
+        </form>
+</div>    
+</div>
+
+    <footer>
+        <p class="footer">Copyright © <span>2024</span> Your Company. 
+        
+        Design: <a rel="nofollow" href="https://www.tooplate.com">Tooplate</a></p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
