@@ -1,6 +1,6 @@
 body {
   font-family: "Open Sans", Helvetica, Arial, sans-serif;
-  background-image: url("/images/pop-bg.jpg");
+  background-image: url("./images/pop-bg.jpg");
   background-repeat: no-repeat;
   background-position: center center;
   background-attachment: fixed;
@@ -113,7 +113,9 @@ p {
   width: 900px;
   margin-bottom: 20px;
   position: absolute;
-  top:60px;
+  top:0;
+  bottom: 0;
+  height: fit-content;
   left: 0;
   right: 0;
   margin: auto;
